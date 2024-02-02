@@ -9,7 +9,7 @@ namespace TaxCalculator
         {
 
             Console.WriteLine("Benvenut* su TaxCalculator");
-            string res="";
+            string res = "";
             bool end = false;
             while (!end)
             {
@@ -66,16 +66,17 @@ namespace TaxCalculator
                     contribuente1.ShowInfo();
                     Console.WriteLine("Desideri calcolare l'imposta per un altro utente? Risondi digitanto: SI/NO");
                     res = Console.ReadLine();
-                    if(res.ToUpper() == "NO")
+                    if (res.ToUpper() == "NO")
                     {
-                        end=true;
+                        end = true;
                     }
                 }
                 else
                 {
                     //MOSTRA EVENTUALI ERRORI NEL SET
                     Console.Clear();
-                    Console.WriteLine("Errori");
+                    Console.WriteLine("***OPERAZIONE FALLITA***");
+                    Console.WriteLine("");
                     foreach (var text in contribuente1.textsError)
                     {
                         Console.WriteLine(text);
@@ -83,12 +84,13 @@ namespace TaxCalculator
                     Console.WriteLine("");
                     Console.WriteLine("Vuoi proseguire inserendo nuovamente i dati? risondi digitanto: SI/NO");
                     res = Console.ReadLine();
-                    if(res.ToUpper() == "NO")
+                    if (res.ToUpper() == "NO")
                     {
-                        end=true;
+                        end = true;
                     }
-                    Console.Clear();            
+                    Console.Clear();
                 }
+
             }
         }
 
@@ -109,7 +111,7 @@ namespace TaxCalculator
         //CATTURA ERRORI 
         public bool Error = false;
 
-        
+
         //LISTA ELENCO ERRORI
         public List<string> textsError = new List<string>();
 
@@ -220,12 +222,13 @@ namespace TaxCalculator
         //procedura per mostrare tutti i dati + imposte
         public void ShowInfo()
         {
-            Console.WriteLine($"Contribuente: {_nome} {_cognome}");
-            Console.WriteLine($"Nat* il {DataNascita},{Genere}");
-            Console.WriteLine($"Residente in {_residenza}");
+            Console.WriteLine($"Contribuente: {char.ToUpper(_nome[0]) + _nome.Substring(1)} {char.ToUpper(_cognome[0]) + _cognome.Substring(1)}");
+            Console.WriteLine($"Nat* il {DataNascita},({Genere})");
+            Console.WriteLine($"Residente in {char.ToUpper(_residenza[0]) + _residenza.Substring(1)}");
             Console.WriteLine($"codice fiscale: {CodiceFiscale}");
             Console.WriteLine($"Reddito dichiarato: {Reddito}");
             Console.WriteLine($"IMPOSTA DA VERSARE: {TotTax}");
+
         }
 
     }
