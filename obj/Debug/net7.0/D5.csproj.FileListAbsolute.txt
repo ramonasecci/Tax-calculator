@@ -1,0 +1,15 @@
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/bin/Debug/net7.0/D5
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/bin/Debug/net7.0/D5.deps.json
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/bin/Debug/net7.0/D5.runtimeconfig.json
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/bin/Debug/net7.0/D5.dll
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/bin/Debug/net7.0/D5.pdb
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.csproj.AssemblyReference.cache
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.AssemblyInfoInputs.cache
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.AssemblyInfo.cs
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.csproj.CoreCompileInputs.cache
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.dll
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/refint/D5.dll
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.pdb
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/D5.genruntimeconfig.cache
+/Users/lucainticu/Desktop/epicodeCORSO2/unità1/S1/D5/obj/Debug/net7.0/ref/D5.dll
